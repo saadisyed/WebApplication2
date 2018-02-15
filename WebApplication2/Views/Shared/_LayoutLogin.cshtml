@@ -30,6 +30,24 @@
     @RenderSection("Style", false)
 </head>
 <body>
+
+
+    <div style="width:auto; background-color:aqua">
+        @if (Request.IsAuthenticated)
+        {
+            @Html.ActionLink("Log Out of This", "Logout", "Home")
+        }
+
+        else
+        {
+            @Html.ActionLink("Register", "Register", "Home")
+            <span> | </span>
+            @Html.ActionLink("Log In", "Login", "Home")
+        }
+    </div>
+
+
+
     <!-- Preloader -->
     <div class="preloader">
         <div class="cssload-speeding-wheel"></div>
