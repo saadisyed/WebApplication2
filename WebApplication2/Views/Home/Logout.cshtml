@@ -1,0 +1,14 @@
+﻿@model WebApplication2.Models.tblRegistration
+
+@{
+    ViewBag.Title = "LogOut";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>LogOut</h2>
+
+public ActionResult LogOut()
+{
+    FormsAuthentication.SignOut();
+    return RedirectToAction("Index", "Home");
+} 
