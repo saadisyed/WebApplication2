@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7f71f203510c47ab9cc67bfd0b29a467" Name="Diagram1">
+        <EntityTypeShape EntityType="MoviesModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblActor" Width="1.5" PointX="6.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblAudio" Width="1.5" PointX="14.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblCodec" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblComposer" Width="1.5" PointX="16.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblDirector" Width="1.5" PointX="9" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblEpisode" Width="1.5" PointX="11.25" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblEpisodeMediaAudio" Width="1.5" PointX="3" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblEpisodeMediaCodec" Width="1.5" PointX="3" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblEpisodeMediaReleaseType" Width="1.5" PointX="3" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblEpisodeMediaResolution" Width="1.5" PointX="6" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblEpisodeMediaSpecial" Width="1.5" PointX="6" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblGenre" Width="1.5" PointX="13.5" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblMedia" Width="1.5" PointX="0.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblMovie" Width="1.5" PointX="16.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblMusic" Width="1.5" PointX="19" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblNetwork" Width="1.5" PointX="13.5" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblParentalRating" Width="1.5" PointX="9" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblPerson" Width="1.5" PointX="24.25" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblProducer" Width="1.5" PointX="22" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblReleaseType" Width="1.5" PointX="14.5" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblResolution" Width="1.5" PointX="14.5" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblRole" Width="1.5" PointX="4.5" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblSpecial" Width="1.5" PointX="14.5" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblStudio" Width="1.5" PointX="22" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblTVSery" Width="1.5" PointX="9" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblTVSeriesMediaAudio" Width="1.5" PointX="14.25" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblTVSeriesMediaCodec" Width="1.5" PointX="14.25" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblTVSeriesMediaReleaseType" Width="1.5" PointX="14.25" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblTVSeriesMediaResolution" Width="1.5" PointX="11.25" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.tblTVSeriesMediaSpecial" Width="1.5" PointX="11.25" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.UserRole" Width="1.5" PointX="24.25" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.User" Width="1.5" PointX="22" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.qryActor" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.qryAudio" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.qryCodec" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.qryDirector" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.qryGenre" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.qryMedia" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.qryParentalRating" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.qryReleaseType" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.qryResolution" Width="1.5" PointX="4.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MoviesModel.qrySpecial" Width="1.5" PointX="6.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="MoviesModel.FK_tblPerson_Actor" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaAudio_AudioEpisode_Media_Audio" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovie_tblAudiotblMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaAudio_AudioTVSeries_Media_Audio" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaCodec_CodecEpisode_Media_Codec" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovie_tblCodectblMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaCodec_CodecTVSeries_Media_Codec" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.FK_tblPerson_Composer" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.FK_tblPerson_Director" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisode_DirectorEpisode" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovie_DirectorMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisode_ParentalRatingEpisode" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisode_TVSeriesEpisode" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaAudio_EpisodeEpisode_Media_Audio" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaCodec_EpisodeEpisode_Media_Codec" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaReleaseType_EpisodeEpisode_Media_ReleaseType" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaResolution_EpisodeEpisode_Media_Resolution" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaSpecials_EpisodeEpisode_Media_Specials" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaAudio_MediaEpisode_Media_Audio" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaCodec_MediaEpisode_Media_Codec" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaReleaseType_MediaEpisode_Media_ReleaseType" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaReleaseType_ReleaseTypeEpisode_Media_ReleaseType" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaResolution_MediaEpisode_Media_Resolution" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaResolution_ResolutionEpisode_Media_Resolution" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaSpecials_MediaEpisode_Media_Specials" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMediaSpecials_SpecialsEpisode_Media_Specials" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.FK_tblTVSeries_Media" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovie_tblMediatblMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaAudio_MediaTVSeries_Media_Audio" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaCodec_MediaTVSeries_Media_Codec" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaReleaseType_MediaTVSeries_Media_ReleaseType" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaResolution_MediaTVSeries_Media_Resolution" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaSpecials_MediaTVSeries_Media_Specials" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovie_ParentalRatingMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovie_tblReleaseTypetblMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovie_tblResolutiontblMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovie_tblSpecialstblMovie" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeries_ParentalRatingTVSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.FK_tblPerson_Producer" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.FK_tblPerson_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaReleaseType_ReleaseTypeTVSeries_Media_ReleaseType" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaResolution_ResolutionTVSeries_Media_Resolution" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaSpecials_SpecialsTVSeries_Media_Specials" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaAudio_TVSeriesTVSeries_Media_Audio" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaCodec_TVSeriesTVSeries_Media_Codec" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaReleaseType_TVSeriesTVSeries_Media_ReleaseType" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaResolution_TVSeriesTVSeries_Media_Resolution" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMediaSpecials_TVSeriesTVSeries_Media_Specials" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblActorRole" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeActor" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeGenre" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeMusic" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeNetwork" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeProducer" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblEpisodeStudio" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovieActor" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovieGenre" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovieMusic" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovieProducer" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMovieStudio" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblMusicComposer" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesActor" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesDirector" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesGenre" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesMusic" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesNetwork" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesProducer" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.tblTVSeriesStudio" ManuallyRouted="false" />
+        <AssociationConnector Association="MoviesModel.UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
